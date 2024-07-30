@@ -11,8 +11,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/indexsupply/x/eth"
-	"github.com/indexsupply/x/isxerrors"
+	"github.com/indexsupply/xeth/eth"
+	"github.com/indexsupply/xeth/isxerrors"
 )
 
 //go:embed template.txt
@@ -39,14 +39,14 @@ func imports(descriptors []Descriptor) []string {
 	}
 	for _, desc := range descriptors {
 		if desc.StateMutability == "view" {
-			imports = append(imports, "github.com/indexsupply/x/jrpc")
+			imports = append(imports, "github.com/indexsupply/xeth/jrpc")
 			break
 		}
 	}
 	imports = append(imports, "bytes")
-	imports = append(imports, "github.com/indexsupply/x/eth")
-	imports = append(imports, "github.com/indexsupply/x/abi")
-	imports = append(imports, "github.com/indexsupply/x/abi/schema")
+	imports = append(imports, "github.com/indexsupply/xeth/eth")
+	imports = append(imports, "github.com/indexsupply/xeth/abi")
+	imports = append(imports, "github.com/indexsupply/xeth/abi/schema")
 	return imports
 }
 

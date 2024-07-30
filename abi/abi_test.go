@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/indexsupply/x/abi/schema"
-	"github.com/indexsupply/x/tc"
+	"github.com/indexsupply/xeth/abi/schema"
+	"github.com/indexsupply/xeth/tc"
 	"github.com/kr/pretty"
 	"kr.dev/diff"
 )

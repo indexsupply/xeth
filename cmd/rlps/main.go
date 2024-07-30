@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/indexsupply/x/freezer"
-	"github.com/indexsupply/x/jrpc"
-	"github.com/indexsupply/x/rlps"
+	"github.com/indexsupply/xeth/freezer"
+	"github.com/indexsupply/xeth/jrpc"
+	"github.com/indexsupply/xeth/rlps"
 )
 
 func check(err error) {

@@ -10,8 +10,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/indexsupply/x/abi/schema"
-	"github.com/indexsupply/x/bint"
+	"github.com/indexsupply/xeth/abi/schema"
+	"github.com/indexsupply/xeth/bint"
 )
 
 var (

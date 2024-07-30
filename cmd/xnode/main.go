@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/indexsupply/x/enr"
-	"github.com/indexsupply/x/rlpx"
+	"github.com/indexsupply/xeth/enr"
+	"github.com/indexsupply/xeth/rlpx"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )

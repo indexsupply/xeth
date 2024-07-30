@@ -4,8 +4,8 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/indexsupply/x/abi/schema"
-	"github.com/indexsupply/x/bint"
+	"github.com/indexsupply/xeth/abi/schema"
+	"github.com/indexsupply/xeth/bint"
 )
 
 func Address(a [20]byte) *Item {

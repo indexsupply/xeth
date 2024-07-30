@@ -18,13 +18,13 @@ import (
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/indexsupply/x/bint"
-	"github.com/indexsupply/x/ecies"
-	"github.com/indexsupply/x/enr"
-	"github.com/indexsupply/x/eth"
-	"github.com/indexsupply/x/isxerrors"
-	"github.com/indexsupply/x/rlp"
-	"github.com/indexsupply/x/wsecp256k1"
+	"github.com/indexsupply/xeth/bint"
+	"github.com/indexsupply/xeth/ecies"
+	"github.com/indexsupply/xeth/enr"
+	"github.com/indexsupply/xeth/eth"
+	"github.com/indexsupply/xeth/isxerrors"
+	"github.com/indexsupply/xeth/rlp"
+	"github.com/indexsupply/xeth/wsecp256k1"
 )
 
 type session struct {

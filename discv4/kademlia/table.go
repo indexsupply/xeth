@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/indexsupply/x/enr"
+	"github.com/indexsupply/xeth/enr"
 )
 
 const (

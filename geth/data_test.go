@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/indexsupply/x/eth"
-	"github.com/indexsupply/x/geth/gethtest"
+	"github.com/indexsupply/xeth/eth"
+	"github.com/indexsupply/xeth/geth/gethtest"
 	"kr.dev/diff"
 )
 

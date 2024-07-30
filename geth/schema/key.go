@@ -3,7 +3,7 @@ package schema
 import (
 	"encoding/binary"
 
-	"github.com/indexsupply/x/bint"
+	"github.com/indexsupply/xeth/bint"
 )
 
 func Key(t string, n uint64, h []byte) (k []byte) {

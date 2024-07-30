@@ -9,7 +9,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/indexsupply/x/rlp"
+	"github.com/indexsupply/xeth/rlp"
 )
 
 func check(err error) {

@@ -12,13 +12,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/indexsupply/x/bint"
-	"github.com/indexsupply/x/bloom"
-	"github.com/indexsupply/x/eth"
-	"github.com/indexsupply/x/freezer"
-	"github.com/indexsupply/x/geth"
-	"github.com/indexsupply/x/jrpc"
-	"github.com/indexsupply/x/rlp"
+	"github.com/indexsupply/xeth/bint"
+	"github.com/indexsupply/xeth/bloom"
+	"github.com/indexsupply/xeth/eth"
+	"github.com/indexsupply/xeth/freezer"
+	"github.com/indexsupply/xeth/geth"
+	"github.com/indexsupply/xeth/jrpc"
+	"github.com/indexsupply/xeth/rlp"
 )
 
 func NewClient(chainID uint64, url string) *Client {

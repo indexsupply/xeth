@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/indexsupply/x/bint"
-	"github.com/indexsupply/x/discv4/kademlia"
-	"github.com/indexsupply/x/enr"
-	"github.com/indexsupply/x/eth"
-	"github.com/indexsupply/x/isxerrors"
-	"github.com/indexsupply/x/rlp"
-	"github.com/indexsupply/x/wsecp256k1"
+	"github.com/indexsupply/xeth/bint"
+	"github.com/indexsupply/xeth/discv4/kademlia"
+	"github.com/indexsupply/xeth/enr"
+	"github.com/indexsupply/xeth/eth"
+	"github.com/indexsupply/xeth/isxerrors"
+	"github.com/indexsupply/xeth/rlp"
+	"github.com/indexsupply/xeth/wsecp256k1"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )

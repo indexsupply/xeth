@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/indexsupply/x/abi"
+	"github.com/indexsupply/xeth/abi"
 )
 
 //go:generate genabi -i example.json -o example.go -p example

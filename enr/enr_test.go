@@ -7,7 +7,7 @@ import (
 	"kr.dev/diff"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/indexsupply/x/wsecp256k1"
+	"github.com/indexsupply/xeth/wsecp256k1"
 )
 
 func TestUnmarshalText(t *testing.T) {

@@ -4,9 +4,9 @@
 package example
 
 import (
-	"github.com/indexsupply/x/abi"
-	"github.com/indexsupply/x/abi/schema"
-	"github.com/indexsupply/x/jrpc"
+	"github.com/indexsupply/xeth/abi"
+	"github.com/indexsupply/xeth/abi/schema"
+	"github.com/indexsupply/xeth/jrpc"
 	"math/big"
 )
 

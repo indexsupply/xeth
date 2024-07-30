@@ -14,7 +14,7 @@ package wsecp256k1
 import (
 	"errors"
 
-	"github.com/indexsupply/x/isxerrors"
+	"github.com/indexsupply/xeth/isxerrors"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"

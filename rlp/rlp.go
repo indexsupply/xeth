@@ -5,7 +5,7 @@
 package rlp
 
 import (
-	"github.com/indexsupply/x/bint"
+	"github.com/indexsupply/xeth/bint"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/indexsupply/x
+module github.com/indexsupply/xeth
 
 go 1.21
 

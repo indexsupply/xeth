@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/indexsupply/x/tc"
+	"github.com/indexsupply/xeth/tc"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )

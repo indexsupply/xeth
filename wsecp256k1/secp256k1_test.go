@@ -6,7 +6,7 @@ import (
 	"kr.dev/diff"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/indexsupply/x/tc"
+	"github.com/indexsupply/xeth/tc"
 )
 
 func TestSignRecover(t *testing.T) {

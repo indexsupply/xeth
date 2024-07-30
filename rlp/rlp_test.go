@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/indexsupply/x/bint"
+	"github.com/indexsupply/xeth/bint"
 	"kr.dev/diff"
 )
 

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/indexsupply/x/genabi"
+	"github.com/indexsupply/xeth/genabi"
 )
 
 var (

@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/golang/snappy"
-	"github.com/indexsupply/x/eth"
-	"github.com/indexsupply/x/freezer"
-	"github.com/indexsupply/x/geth/schema"
-	"github.com/indexsupply/x/jrpc"
+	"github.com/indexsupply/xeth/eth"
+	"github.com/indexsupply/xeth/freezer"
+	"github.com/indexsupply/xeth/geth/schema"
+	"github.com/indexsupply/xeth/jrpc"
 )
 
 func Latest(rc *jrpc.Client) ([]byte, []byte, error) {

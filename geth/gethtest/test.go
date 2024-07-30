@@ -14,9 +14,9 @@ import (
 	"testing"
 
 	"github.com/golang/snappy"
-	"github.com/indexsupply/x/bint"
-	"github.com/indexsupply/x/geth/schema"
-	"github.com/indexsupply/x/jrpc"
+	"github.com/indexsupply/xeth/bint"
+	"github.com/indexsupply/xeth/geth/schema"
+	"github.com/indexsupply/xeth/jrpc"
 	"kr.dev/diff"
 )
 

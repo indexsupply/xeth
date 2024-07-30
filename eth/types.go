@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/indexsupply/x/bint"
-	"github.com/indexsupply/x/rlp"
+	"github.com/indexsupply/xeth/bint"
+	"github.com/indexsupply/xeth/rlp"
 
 	"github.com/holiman/uint256"
 )

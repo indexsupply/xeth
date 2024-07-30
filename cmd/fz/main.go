@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/indexsupply/x/freezer"
+	"github.com/indexsupply/xeth/freezer"
 )
 
 func check(err error) {
